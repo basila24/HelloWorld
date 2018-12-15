@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18042673456,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open automationpractice website",
+            "match": {
+              "location": "DataDrivenFramework.i_open_automationpractice_website()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22753963941,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Data driven with excel and data sets",
+        "description": "",
+        "id": "fill-a-simple-form-with-excel-data;data-driven-with-excel-and-data-sets;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1814942960,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2880967638,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click contact us",
+            "match": {
+              "location": "DataDrivenFramework.click_contact_us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 962753062,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I contact the customer service with excel row \"2\" dataset",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 47
+                }
+              ],
+              "location": "DataDrivenFramework.i_contact_the_customer_service_with_excel_row_dataset(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Functional"
+          },
+          {
+            "line": 12,
+            "name": "@Webdriver,"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11929632224,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open automationpractice website",
+            "match": {
+              "location": "DataDrivenFramework.i_open_automationpractice_website()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6021094339,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Data driven with excel and data sets",
+        "description": "",
+        "id": "fill-a-simple-form-with-excel-data;data-driven-with-excel-and-data-sets;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1404567792,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2455960165,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click contact us",
+            "match": {
+              "location": "DataDrivenFramework.click_contact_us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 850345024,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I contact the customer service with excel row \"3\" dataset",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 47
+                }
+              ],
+              "location": "DataDrivenFramework.i_contact_the_customer_service_with_excel_row_dataset(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Functional"
+          },
+          {
+            "line": 12,
+            "name": "@Webdriver,"
+          }
+        ]
+      }
+    ],
+    "name": "Fill a simple form with excel data",
+    "description": "",
+    "id": "fill-a-simple-form-with-excel-data",
+    "keyword": "Feature",
+    "uri": "features/DataDrivenFramework.feature"
+  }
+]
