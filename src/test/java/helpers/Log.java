@@ -6,7 +6,8 @@ public class Log {
 	private static Logger Log = Logger.getLogger(Log.class.getName()); 
 	
 	public static void startTestCase(String sTestCaseName){
-		Log.info("Started Test");
+		Log.info("Started Test cases");
+		System.out.println("Log.info(\"Started Test cases\");");
 	}
 
 
