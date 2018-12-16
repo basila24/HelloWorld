@@ -7,7 +7,7 @@ public class Log {
 	
 	public static void startTestCase(String sTestCaseName){
 		Log.info("Started Test cases");
-		System.out.println("Log.o(\"Started Test cases\");");
+		System.out.println("Log.o(\"Scvcxbtarted Test cases\");");
 	}
 
 
